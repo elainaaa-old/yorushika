@@ -3,7 +3,7 @@ const yaml      = require('js-yaml');
 const moment    = require('moment');
 const { strip } = require('../util/colors');
 
-const conf = yaml.safeLoad(fs.readFileSync('application.yml', { encoding: 'utf8' }));
+const conf = yaml.safeLoad(fs.readFileSync('../application.yml', { encoding: 'utf8' }));
 
 module.exports = class WumpUtil {
   /**
