@@ -1,0 +1,56 @@
+#-----------------[ Yorushika config ]-----------------#
+# This is the configuration file of "Wump", all your   #
+# sensitive information is stored inside of this file. #
+# Do **not** give this file or it's contents to        #
+# **anyone**, they can do a lot of bad things with     #
+# your tokens. Please be kind and follow the license.  #
+# - Wessel                                             #
+#------------------------------------------------------#
+debug: 4
+nightly: true
+
+db: 'mongodb://localhost:27017/Wump'
+
+discord:
+  token: 'NTcyMTIzNTU2NzI1NTIyNDcz.XMXt0A.PNtlYxOiI9U5EKZZNF6F7w19Ew4'
+  prefix: "'"
+  locale: 'en_us'
+  enabled: true
+
+  op:
+    - '544580475952431104'
+  
+  playing:
+
+    name: "type 'help"
+    type: 1          # 0 - Playing / 1 - Streaming / 2 - Listening / 3 - Watching
+    status: 'online' # online / idle / dnd / invisible
+
+  webhook:
+    token: false
+    channel: false
+
+  events:
+    - ready
+    - shardReady
+    - shardResume
+    - disconnect
+    - messageCreate
+    - messageDelete
+    - guildMemberAdd
+    - shardDisconnect
+
+  commands:
+    - yorushika.core.locale
+    - yorushika.core.prefix
+    - yorushika.utility.*
+    - yorushika.information.*
+    - yorushika.image.*
+    - yorushika.tags.*
+    - yorushika.games.*
+    - yorushika.developer.*
+
+api:
+  lol: '<--snip-->'
+  dbl: '<--snip-->'
+  ksoft: '<--snip-->'
