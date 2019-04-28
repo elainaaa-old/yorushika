@@ -12,17 +12,17 @@ nightly: true
 db: 'mongodb://localhost:27017/Wump'
 
 discord:
-  token: '<--snip-->'
-  prefix: '!'
+  token: 'NTcxNDY4OTI4MTkxMTY4NTEz.XMS_Mw.L_199C99W5jyAFSHEFPItowYl-4'
+  prefix: "'"
   locale: 'en_us'
   enabled: true
 
   op:
-    - '107130754189766656'
+    - '544580475952431104'
   
   playing:
-    url: 'https://twitch.tv/wumpusapp'
-    name: 'type $help'
+
+    name: "type 'help"
     type: 1          # 0 - Playing / 1 - Streaming / 2 - Listening / 3 - Watching
     status: 'online' # online / idle / dnd / invisible
 
