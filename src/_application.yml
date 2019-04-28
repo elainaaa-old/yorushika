@@ -12,7 +12,7 @@ nightly: true
 db: 'mongodb://localhost:27017/Wump'
 
 discord:
-  token: 'NTcxNDY4OTI4MTkxMTY4NTEz.XMS_Mw.L_199C99W5jyAFSHEFPItowYl-4'
+  token: 'NTcyMTIzNTU2NzI1NTIyNDcz.XMXt0A.PNtlYxOiI9U5EKZZNF6F7w19Ew4'
   prefix: "'"
   locale: 'en_us'
   enabled: true
