@@ -34,7 +34,7 @@ print(3, `${magenta('Debug')} >> Loading configuration files...`);
 const pkg  = require('../package.json');
 const ico  = safeLoad(readFileSync( 'assets/config/emotes.yml'));
 const col  = safeLoad(readFileSync( 'assets/config/colors.yml'));
-const conf = safeLoad(readFileSync('application.yml'));
+const conf = safeLoad(readFileSync('application.json'));
 print(3, `${magenta('Debug')} >> Configuration files loaded`);
 
 process.on('uncaughtException', (err) => process.handleError(err));
