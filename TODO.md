@@ -2,7 +2,7 @@
 - [ ] = Planned
 - [x] = In progress
 
-- [ ] Global
+- [x] Global
     - [x] Clean locales
 - [ ] Information
     - [ ] Commands
